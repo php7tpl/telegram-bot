@@ -5,10 +5,10 @@ $obj = json_decode($json, TRUE);
 
 if (isset($obj['message']))
 {
-$first_name="";
-$last_name="";
-$username="";
-$text="";
+$first_name=",n,mn";
+$last_name=",mn,mn";
+$username=",mn,mn";
+$text=",mn,n";
  
 $chat_id=$obj['message']['chat']['id'];
 if ($obj['message']['chat']['type']=="private")
