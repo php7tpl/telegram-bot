@@ -1,3 +1,4 @@
 <?php
-
-echo 1232343;
+$data = [111];
+header('Content-Type: application/json');
+echo json_encode($data);
